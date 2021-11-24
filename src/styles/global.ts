@@ -10,8 +10,13 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: border-box;
   }
   
+  html, body {
+    background-color: black;
+    color: white;
+  }
+  
   body {
-    font-family: 'Nexa', 'Termina', -apple-system, BlinkMacSystemFont, "Segoe UI",
+    font-family: 'Archia', 'Termina', -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans",
     "Helvetica Neue", sans-serif;
     -webkit-font-smoothing: antialiased;
@@ -20,10 +25,6 @@ const GlobalStyle = createGlobalStyle`
   #__next {
     display: flex;
     min-height: 100vh;
-    
-    > * {
-      flex: 1;
-    }
   }
 `;
 

@@ -1,3 +1,4 @@
+import Wrapper from 'components/Wrapper';
 import type { AppProps } from 'next/app';
 import Head from 'next/head';
 import { ThemeProvider } from 'styled-components';
@@ -14,7 +15,9 @@ export default function App({ Component, pageProps }: AppProps): JSX.Element {
           content="width=device-width, initial-scale=1, user-scalable=no"
         />
       </Head>
-      <Component {...pageProps} />
+      <Wrapper>
+        <Component {...pageProps} />
+      </Wrapper>
     </ThemeProvider>
   );
 }
