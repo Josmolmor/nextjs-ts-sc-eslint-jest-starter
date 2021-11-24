@@ -13,8 +13,12 @@ const theme = {
     white: '#ffffff',
   },
   weights: {
+    bold: 700,
+    semiBold: 600,
+    medium: 500,
     regular: 400,
-    heavy: 900,
+    light: 300,
+    thin: 100,
   },
 };
 
