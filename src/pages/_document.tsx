@@ -45,20 +45,10 @@ export default class AppDocument extends Document {
   override render = (): JSX.Element => (
     <Html lang="en">
       <Head>
-        <link rel="manifest" href="/manifest.json" />
         <link
-          rel="icon"
-          type="image/png"
-          sizes="32x32"
-          href="/icons/favicon-32x32.png"
+          href="https://fonts.googleapis.com/css2?family=Roboto&display=swap"
+          rel="stylesheet"
         />
-        <link
-          rel="icon"
-          type="image/png"
-          sizes="16x16"
-          href="/icons/favicon-16x16.png"
-        />
-        <link rel="shortcut icon" href="/icons/favicon.ico" />
       </Head>
       <body>
         <Main />

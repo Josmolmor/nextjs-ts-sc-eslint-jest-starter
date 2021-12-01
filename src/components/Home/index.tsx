@@ -1,8 +1,10 @@
+import packageJson from '$/../../package.json';
+
 import { Container } from './styles';
 
 const Home = () => (
   <Container>
-    <h1>Archia</h1>
+    <h1>{packageJson.name} 🎺</h1>
   </Container>
 );
 

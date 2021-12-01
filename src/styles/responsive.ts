@@ -1,5 +1,6 @@
 import { useEffect, useState } from 'react';
-import keysOf from 'utils/keysOf';
+
+import keysOf from '$/utils/keysOf';
 
 export const sizes = {
   mobile: 480,

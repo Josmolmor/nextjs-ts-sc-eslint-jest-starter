@@ -1,4 +1,4 @@
-import HomeComponent from 'components/Home';
+import HomeComponent from '$/components/Home';
 
 const Home = () => <HomeComponent />;
 
